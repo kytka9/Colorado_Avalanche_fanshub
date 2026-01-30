@@ -478,13 +478,19 @@ canvas {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .grid-2 {
         grid-template-columns: 1fr;
     }
 
     .hero-content h1 {
         font-size: 2.5rem;
+    }
+    .parallax, .parallax-small {
+        /* Vypne fixnú pozíciu na tabletoch a mobiloch */
+        background-attachment: scroll;
+        /* Voliteľné: Ak by obrazovka bola príliš malá, vycentrujeme obraz */
+        background-position: center center;
     }
 }
 
@@ -542,3 +548,9 @@ canvas {
     align-items: center;
     padding: 20px;
 }
+
+
+/* MATCHES */
+/* MATCHES */
+/* MATCHES */
+
