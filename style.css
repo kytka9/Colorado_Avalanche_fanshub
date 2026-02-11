@@ -1,7 +1,3 @@
-/* 
-PRE VYCENTROVANIE + TREBA ZMAZAŤ <center> V KÓDE
-*/
-
 /* Vycentrovanie nadpisov sekcií */
 .section-title {
     display: block;
@@ -449,6 +445,14 @@ footer a:hover {
     text-align: left;
 }
 
+.player-link {
+    display: block;    /* Odkaz vyplní celú šírku */
+    height: 100%;      /* Odkaz vyplní celú výšku (400px) karty */
+    width: 100%;
+    text-decoration: none; /* Odstráni podčiarknutie */
+    color: #ffffff;    /* Vynúti bielu farbu textu */
+}
+
 
 /* GAME */
 /* GAME */
@@ -547,6 +551,13 @@ canvas {
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+/* MAP CONTAINER */
+.map-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
 }
 
 
